@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peppermint Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">Peppermint Delights</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Peppermint Delights</h1>
+      <p>Indulge in the sweetness of our peppermint-inspired treats.</p>
+      <a href="#" class="cta-button">Discover More</a>
+    </div>
+  </section>
+
+  <section class="menu">
+    <div class="container">
+      <h2>Our Menu</h2>
+      <div class="menu-item">
+        <img src="peppermint-cake.jpg" alt="Peppermint Cake">
+        <h3>Peppermint Cake</h3>
+        <p>A delicious cake infused with the refreshing flavor of peppermint.</p>
+      </div>
+      <div class="menu-item">
+        <img src="peppermint-latte.jpg" alt="Peppermint Latte">
+        <h3>Peppermint Latte</h3>
+        <p>Warm up with our aromatic peppermint latte topped with whipped cream.</p>
+      </div>
+      <div class="menu-item">
+        <img src="peppermint-cookies.jpg" alt="Peppermint Cookies">
+        <h3>Peppermint Cookies</h3>
+        <p>Irresistible peppermint cookies with a perfect balance of sweetness.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2023 Peppermint Delights. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
